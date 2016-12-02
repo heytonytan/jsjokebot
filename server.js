@@ -20,7 +20,7 @@ const jsjokes = [
 ];
 
 server.get('/', (req, res) => {
-  res.send('hello!'); 
+  res.send('hello! this is jsjokebot'); 
 });
 
 server.post('/', (req, res) => {
