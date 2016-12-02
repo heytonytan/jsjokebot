@@ -46,8 +46,8 @@ server.post('/', (req, res) => {
       console.log(jsjoke);
 
       request.post({
-        url: 'http://localhost:8000/apps',
-        //url: 'http://gittalk.co/apps',
+        // url: 'http://localhost:8000/apps',
+        url: 'http://gittalk.co/apps',
         json: payload
       }, (err, response, body) => {
         if (err) { 
@@ -60,4 +60,4 @@ server.post('/', (req, res) => {
 });
 
 console.log(`listening to port ${ process.env.PORT || 9876 }`);
-server.listen(9876);
+server.listen(process.env.PORT || 9876);
