@@ -1,0 +1,28 @@
+{
+  "name": "jsjokebot",
+  "version": "1.0.0",
+  "description": "jsjokebot for GitTalk",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tankwan/jsjokebot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "gittalk"
+  ],
+  "author": "Tony K Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tankwan/jsjokebot/issues"
+  },
+  "homepage": "https://github.com/tankwan/jsjokebot#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  }
+}
